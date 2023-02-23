@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="main-section d-flex flex-column">
+             <!-- header -->
+        <div class="row header-section d-none d-md-block">
+            <div class="col-12 col-md-12">
+                <div class="container">
+                    <div class="login-container">
+                        <a href="#"><img src="./images/si-logo.png" /></a>
+                        <p><a href="#"><img src="./images/icons/loginicon.svg" />Login / Register</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-black mt-2 header-section">
+            <div class="col-12 col-md-12">
+                <div class="container ">
+                    <div class="back-step-container">
+                        <p><a href="#"><i class="arrow-icon"></i>
+                            <span class="d-none d-md-inline-block">Pick team</span>
+                            <span class="d-inline-block d-md-none">Create Team</span></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end-header -->
+        <!-- body-section -->
+        <div class="row">
+            <div class="">
+                <div class="container d-flex">
+                    <div class="row">
+                        <div class="d-flex flex-md-row flex-column">
+                            <div class="left-container mt-4">
+                                <div class="budget-parent">
+                                    <div class="budget-child1">
+                                        <div class="budget-text">
+                                            <p>Available Budget</p>
+                                            <p>$100m</p>
+                                        </div>
+                                        <div class="budget-btn">
+                                            <button class="btn mr-3"><img
+                                                    src="./images/icons/refresh-icon.svg" /></button>
+                                            <button class="btn mr-3">Auto Complete</button>
+                                            <button class="btn d-none d-md-inline-block">Save Team</button>
+                                        </div>
+                                    </div>
+                                    <div class="budget-child2 mt-4 flex-container">
+                                        <div class="adidas-logo order-md-1 order-2">
+                                            <img src="./images/adidaslogo.png" class="m-auto" />
+                                        </div>
+                                        <div class="filed-section order-md-2 order-3">
+                                            <div class="filed-car">
+                                                <div id="demo" class="carousel slide " data-ride="carousel"
+                                                    data-interval="false">
+                                                    <!-- The slideshow -->
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <!-- row1 -->
+                                                            <div class="player-position1 d-flex justify-content-center">
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                            <!-- row2 -->
+                                                            <div class="player-position1 d-flex justify-content-center">
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <!-- row3 -->
+                                                            <div class="player-position1 d-flex justify-content-center">
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <!-- row4 -->
+                                                            <div class="player-position1 d-flex justify-content-center">
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="carousel-item">
+                                                            <!-- row1 -->
+                                                            <div
+                                                                class="player-position1 player-position2 d-flex justify-content-center">
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div class="player-unjoin player-inactive ">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <!-- row2 -->
+                                                            <div
+                                                                class="player-position1 player-position2 d-flex justify-content-center">
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+
+                                                            </div>
+                                                            <!-- row3 -->
+                                                            <div
+                                                                class="player-position1 player-position2 d-flex justify-content-center">
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <!-- row4 -->
+                                                            <div
+                                                                class="player-position1 player-position2 d-flex justify-content-center">
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <!-- row5 -->
+                                                            <!-- row4 -->
+                                                            <div
+                                                                class="player-position1 player-position2 d-flex justify-content-center">
+                                                                <div
+                                                                    class="player-add d-flex flex-column align-items-center">
+                                                                    <div class="player-join">
+                                                                        <img src="./images/Jersey.png"
+                                                                            class="add-ply-img" />
+                                                                        <button class="add-btn">Add player</button>
+                                                                    </div>
+                                                                    <div
+                                                                        class="player-unjoin player-inactive d-flex flex-column align-items-center">
+                                                                        <img src="./images/Jersey1.png"
+                                                                            class="add-ply-img" />
+                                                                        <img src="./images/icons/Remove.svg"
+                                                                            class="remove-player" />
+                                                                        <label class="add-btn">Player name</label>
+                                                                        <label class="add-btn">$5.0m</label>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- <div class="carousel-item">
+                                               
+                                              </div> -->
+                                                    </div>
+
+                                                    <!-- Left and right controls -->
+                                                    <a class="carousel-control-prev cc-btn pop-btn d-inline-block  d-md-none" href="#demo" data-slide="">
+                                                        <span>All players</span>
+                                              <!-- <span class="carousel-control-prev-icon"></span> -->
+                                            </a>
+                                                    <a class="carousel-control-next cc-btn" href="#demo"
+                                                        data-slide="next">
+                                                        <!-- <span class="ind-no1 player-active">4-4-2</span>
+                                                <span class="ind-no2 player-inactive">3-2-3-2</span> -->
+                                                        <ul class="carousel-indicators .carousel-indicators-numbers">
+                                                            <li data-target="#demo" data-slide-to="0" class="active">
+                                                                4-4-2</li>
+                                                            <li data-target="#demo" data-slide-to="1">3-2-3-2</li>
+                                                            <!-- <li data-target="#demo" data-slide-to="2"></li> -->
+                                                        </ul>
+                                                        <span class="carousel-control-next-icon"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="add-player-catlog order-md-3 order-4">
+                                            <div class="goal-kepeer d-flex justify-content-center">
+                                                <div
+                                                    class="player-position1 player-position2 d-flex justify-content-center">
+                                                    <div class="player-add d-flex flex-column align-items-center">
+                                                        <div class="player-join2">
+                                                            <img src="./images/Jersey.png" class="add-ply-img" />
+                                                            <button class="add-btn">Add player</button>
+                                                            <span class="player-cat">GK</span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="player-position1 player-position2 d-flex justify-content-center">
+                                                    <div class="player-add d-flex flex-column align-items-center">
+                                                        <div class="player-join2">
+                                                            <img src="./images/Jersey.png" class="add-ply-img" />
+                                                            <button class="add-btn">Add player</button>
+                                                            <span class="player-cat">DEF</span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="player-position1 player-position2 d-flex justify-content-center">
+                                                    <div class="player-add d-flex flex-column align-items-center">
+                                                        <div class="player-join2">
+                                                            <img src="./images/Jersey.png" class="add-ply-img" />
+                                                            <button class="add-btn">Add player</button>
+                                                            <span class="player-cat">MID</span>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="player-position1 player-position2 d-flex justify-content-center">
+                                                    <div class="player-add d-flex flex-column align-items-center">
+                                                        <div class="player-join2">
+                                                            <img src="./images/Jersey.png" class="add-ply-img" />
+                                                            <button class="add-btn">Add player</button>
+                                                            <span class="player-cat">FWD</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="save-btn d-md-none d-block">Save Team</button>
+                                        </div>
+                                        <!-- price section -->
+                                        <div class="price-section order-md-4 order-1 d-flex justify-content-center">
+                                            <ul class="nav nav-pills">
+                                                <li><a class="active" data-toggle="pill" href="#home">Price</a></li>
+                                                <li><a data-toggle="pill" href="#menu1">Fixtures</a></li>
+                                                <li><a data-toggle="pill" href="#menu2">Date</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-container ">
+                                <div class="right-section">
+                                    <div class="right-header">
+                                        <span>Player List</span>
+                                        <button>Reset</button>
+                                    </div>
+                                    <div class="player-form-section">
+                                        <form action="/action_page.php" class="player-form">
+                                            <div class="row1 ">
+                                                <div class="form-group mr-2">
+                                                    <label for="position">Position</label>
+                                                    <select class="form-control" id="position">
+                                                        <option disabled selected>All Players</option>
+                                                        <option>DEF</option>
+                                                        <option>GK</option>
+                                                        <option>MID</option>
+                                                        <option>FWD</option>
+                                                    </select>
+                                                </div>
+    
+                                                <div class="form-group ml-2">
+                                                    <label for="position" >By Club</label>
+                                                    <select class="form-control" id="position">
+                                                        <option disabled selected>Select Club</option>
+                                                        <option>Barly</option>
+                                                        <option>URVE</option>
+                                                        <option>SEMI</option>
+                                                        <option>MUMA</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row1  " >
+                                                <div class="form-group mr-2 sh"  >
+                                                    <label for="position">Sort By</label>
+                                                    <select class="form-control" id="position">
+                                                        <option disabled selected>All Players</option>
+                                                        <option>DEF</option>
+                                                        <option>GK</option>
+                                                        <option>MID</option>
+                                                        <option>FWD</option>
+                                                    </select>
+                                                </div>
+    
+                                                <div class="form-group ml-2 sh">
+                                                    <label for="position">Price</label>
+                                                    <select class="form-control" id="position">
+                                                        <option disabled selected>Select Club</option>
+                                                        <option>Barly</option>
+                                                        <option>URVE</option>
+                                                        <option>SEMI</option>
+                                                        <option>MUMA</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row1  ">
+                                                <div class="form-group sh">
+                                                    <input class="form-control mr-sm-2 search-box" type="search"
+                                                        placeholder="Search" aria-label="Search">
+                                                </div>
+                                            </div>
+                                            <div class="row1 filter-section mt-md-0 mt-3 mb-md-0 mb-3">
+                                                <p class="hs d-block d-md-none">More Filter </p>
+                                            </div>
+                                        </form>
+                                        <div class="tabel-section table-responsive" style="max-height: 500px;">
+                                            <table class="table  mb-0">
+                                                <thead class="thead">
+                                                    <tr>
+                                                        <th>Goalkeeper (1/2)</th>
+                                                        <th></th>
+                                                        <th>Price</th>
+                                                        <th>PTS</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><img src="./images/player1.png" /></td>
+                                                        <td>
+                                                            <p>Player Name</p>
+                                                            <p>vs Country</p>
+                                                        </td>
+                                                        <td>9.0</td>
+                                                        <td>24</td>
+                                                        <td><img src="./images/icons/plus.svg" /></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><img src="./images/player2.png" /></td>
+                                                        <td>
+                                                            <p>Player Name</p>
+                                                            <p>vs Country</p>
+                                                        </td>
+                                                        <td>9.0</td>
+                                                        <td>24</td>
+                                                        <td><img src="./images/icons/minus.svg" /></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><img src="./images/player3.png" /></td>
+                                                        <td>
+                                                            <p>Player Name</p>
+                                                            <p>vs Country</p>
+                                                        </td>
+                                                        <td>9.0</td>
+                                                        <td>24</td>
+                                                        <td><img src="./images/icons/plus.svg" /></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><img src="./images/player4.png" /></td>
+                                                        <td>
+                                                            <p>Player Name</p>
+                                                            <p>vs Country</p>
+                                                        </td>
+                                                        <td>9.0</td>
+                                                        <td>24</td>
+                                                        <td><img src="./images/icons/plus.svg" /></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><img src="./images/player5.png" /></td>
+                                                        <td>
+                                                            <p>Player Name</p>
+                                                            <p>vs Country</p>
+                                                        </td>
+                                                        <td>9.0</td>
+                                                        <td>24</td>
+                                                        <td><img src="./images/icons/plus.svg" /></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td class="view-more"><a href="#">View more</a></td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <thead class="thead">
+                                                        <tr>
+                                                            <th>Forwards (1/4)</th>
+                                                            <th></th>
+                                                            <th>Price</th>
+                                                            <th>PTS</th>
+                                                            <th></th>
+                                                        </tr>
+                                                    </thead>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+       
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Activate the Carousel, but pause it from the start
+
+            $(".player-add").on('click', function () {
+                // alert("ok");
+                $(this).find($('.player-join')).addClass('player-inactive').removeClass('player-active');
+                $(this).find($('.player-unjoin')).removeClass('player-inactive').addClass('player-active');
+            });
+            $(".remove-player").on("click", function (e) {
+                // alert("ok");
+                // $(this).parentsUntil().find($(".player-unjoin")).addClass("ok").removeClass('player-inactive'); 
+                e.stopPropagation();
+                $(this).parent().removeClass('player-active').addClass('player-inactive');
+                $(this).parent().prev().removeClass('player-inactive').addClass('player-active');
+            });
+            $(".cc-btn").on('click', function () {
+                // alert("ok");
+
+            });
+            $(".pop-btn").on('click',function(){
+               $('.right-container').css({"height":"788px"});
+            })
+            $(".hs").on("click",function(){
+                $(".sh").toggle();
+            });
+        });
+    </script>
+</body>
+
+</html>
