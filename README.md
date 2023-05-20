@@ -1,2 +1,0 @@
-# test
-interview-test
