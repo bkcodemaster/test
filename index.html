@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/mystyle.css">
+    </head>
+    <body>
+       <div class="main-wrapper">
+        <div class="container ">
+            <div class="row justify-content-center">
+            <div class="city-wrapper">
+                <div class="city-header text-center">
+                    <div class="position-relative ">
+                        <h1 id="cityname">Mumbai</h1>
+                        <img src="./images/refresh.png" class="position-absolute refre-img ">    
+                    </div>
+                    <p class="temp text-center">30</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <p class="daydate">Sunday</p>
+                        <p class="ms-2"><span id="time">12:45</span></p>
+                       
+                    </div>
+                   
+                </div>
+                <div class="wea-icon mt-3">
+                    <img src="./images/sun_PNG13410.png" class="img-fluid" id="day-time">
+                </div>
+                
+                <div class="weather-feature">
+                    <div class="d-flex justify-content-between p-2">
+                        <p><span><img src="./images/humidity (1).png" class="img-fluid"></span>Humidity</p>
+                        <p class="humidity-deg"></p>
+                    </div>
+                    <div class="d-flex justify-content-between p-2">
+                        <p><span><img src="./images/sunrise.png" class="img-fluid"></span>Sunrise</p>
+                        <p class="sunrise-deg"></p>
+                    </div>
+                    <div class="d-flex justify-content-between p-2">
+                        <p><span><img src="./images/windock.png" class="img-fluid"></span>Wind speed</p>
+                        <p class="windspeed"></p>
+                    </div>
+                    <div class="d-flex justify-content-between p-2">
+                        <p><span><img src="./images/celsius (1).png" class="img-fluid"></span>Wind degrees</p>
+                        <p class="wind-deg"></p>
+                    </div>
+                </div>
+            </div>
+           
+            </div>
+        </div>
+       </div>
+        
+        <script src="./js/jquery.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="./js/myscript.js"></script>
+        <!-- <script>
+           $(document).ready(function() {
+  $('#combined-select').change(function() {
+    var selectedValue = $(this).val();
+    $('#combined-input').val(selectedValue);
+  });
+});
+        </script> -->
+    </body>
+</html>
