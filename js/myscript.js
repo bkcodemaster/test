@@ -5,6 +5,8 @@ let hours = currentTime.getHours();
 let minutes = currentTime.getMinutes();
 let period = hours >= 12 ? 'PM' : 'AM';
 let day = currentTime.toLocaleString('en-US', { weekday: 'long' });
+let nighttime = './images/night.png';
+    let daytimes ='./images/sun_PNG13410.png';
 // Convert to 12-hour format
 hours = hours % 12;
 hours = hours ? hours : 12;
@@ -13,13 +15,19 @@ hours = hours < 10 ? '0' + hours : hours;
 minutes = minutes < 10 ? '0' + minutes : minutes;
 var formattedTime = hours + ':' + minutes + ' ' + period;
 let cityname = prompt("Please enter your City Name", "Mumbai");
-if(currentTime >=18){
-    let nighttime = '../images/night.png';
-    let daytime ='./images/sun_PNG13410.png'
+// if(currentTime > 18){
+    
+//     $("#day-time").attr("src",nighttime);
+// }else if(currentTime < 18){
+//     $("#day-time").attr("src",'');
+//     $("#day-time").attr("src",daytimes);
+// }
+// Check if it's daytime
+if (currentHour >= 6 && currentHour < 18) {
     $("#day-time").attr("src",nighttime);
-}else{
-    $("#day-time").attr("src",daytime);
-}
+  } else {
+    $("#day-time").attr("src",daytimes);
+  }
 $("#time").html(formattedTime);
 const settings = {
 	async: true,
