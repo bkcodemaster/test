@@ -14,8 +14,11 @@ minutes = minutes < 10 ? '0' + minutes : minutes;
 var formattedTime = hours + ':' + minutes + ' ' + period;
 let cityname = prompt("Please enter your City Name", "Mumbai");
 if(currentTime >=18){
-    let nighttime = './images/night.png';
+    let nighttime = '../images/night.png';
+    let daytime ='./images/sun_PNG13410.png'
     $("#day-time").attr("src",nighttime);
+}else{
+    $("#day-time").attr("src",daytime);
 }
 $("#time").html(formattedTime);
 const settings = {
