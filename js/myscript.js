@@ -15,15 +15,9 @@ hours = hours < 10 ? '0' + hours : hours;
 minutes = minutes < 10 ? '0' + minutes : minutes;
 var formattedTime = hours + ':' + minutes + ' ' + period;
 let cityname = prompt("Please enter your City Name", "Mumbai");
-// if(currentTime > 18){
-    
-//     $("#day-time").attr("src",nighttime);
-// }else if(currentTime < 18){
-//     $("#day-time").attr("src",'');
-//     $("#day-time").attr("src",daytimes);
-// }
+
 // Check if it's daytime
-if (currentHour >= 6 && currentHour < 18) {
+if (currentTime >= 6 && currentTime < 18) {
     $("#day-time").attr("src",nighttime);
   } else {
     $("#day-time").attr("src",daytimes);
