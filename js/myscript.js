@@ -23,7 +23,7 @@ let cityname = prompt("Please enter your City Name", "Mumbai");
 //     $("#day-time").attr("src",daytimes);
 // }
 // Check if it's daytime
-if (currentHour >= 6 && currentHour < 18) {
+if (currentTime >= 6 && currentTime < 18) {
     $("#day-time").attr("src",nighttime);
   } else {
     $("#day-time").attr("src",daytimes);
